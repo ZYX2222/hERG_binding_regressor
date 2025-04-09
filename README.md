@@ -20,7 +20,7 @@ To replicate or devleop models more conveniently, the environment file <environm
    CECFP.zip: Unzip to get counted_ECFP fingerprint of 13281 chemicals. (Note: Counted_ECFP can be obtained from SMILES (hERG_13281.csv) by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
 
 3. XGBoost Folder   
-   XBoost.ipynb: develop XGBoost models based on fingerprints (such as MACCS).
+   XBoost.ipynb: develop XGBoost models based on fingerprints (such as CECFP).
 
 4. GNN Folder      
    engine.py, model.py, utils.py: contain GNN models and helper functions;   
