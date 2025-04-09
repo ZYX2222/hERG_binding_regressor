@@ -2,8 +2,7 @@
 ### Folder
 
 1. Data Folder   
-   hERG_13281.csv: hERG pIC50 dataset;   
-   MACCS.csv: MACCS Fingerprints of 13281 chemicals;   
+   hERG_13281.csv: hERG dataset with SMILES and pIC50 values;    
    CECFP.zip: Unzip to get counted_ECFP fingerprint of 13281 chemicals. (Note: Counted_ECFP can be obtained from SMILES (hERG_13281.csv) by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
 
 3. XGBoost Folder   
