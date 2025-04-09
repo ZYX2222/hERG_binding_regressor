@@ -1,15 +1,15 @@
 ### hERG_binding_regressor
 
 1. Data Folder   
-   hERG_13281.csv: hERG pIC50 dataset;
+   hERG_13281.csv: hERG pIC50 dataset;   
    MACCS.csv: MACCS Fingerprints of 13281 chemicals.
 
 2. XGBoost Folder   
    XBoost.ipynb: develop XGBoost models based on fingerprints (such as MACCS).
 
 3. GNN Folder   
-   engine.py, model.py, utils.py: contain GNN models and helper functions;
-   config.py: hyperparameters and constant variables.
+   engine.py, model.py, utils.py: contain GNN models and helper functions;   
+   config.py: hyperparameters and constant variables;   
    Train_GNN_model: develop GNN models.
 
 
