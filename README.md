@@ -13,7 +13,7 @@
    engine.py, model.py, utils.py: contain GNN models and helper functions;   
    config.py: hyperparameters and constant variables;   
    Train_GNN_model.ipynb: develop GNN models;   
-   data: Contains train and validation set for developing GNN models.
+   data: Contains train and validation set for developing GNN models.   
    (Note: The code origninated from previous reference: 10.1021/acs.jcim.3c00554)
 
 
