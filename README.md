@@ -4,7 +4,7 @@
 1. Data Folder   
    hERG_13281.csv: hERG pIC50 dataset;   
    MACCS.csv: MACCS Fingerprints of 13281 chemicals;   
-   CECFP_Example.csv: part of counted fingerprint of 13281 chemicals. (Note: Unable to provide the full CECFP fingerprint file due to file size limitations. It can be obtained from SMILES (hERG_13281.csv) by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
+   CECFP.zip: Unzip to get counted_ECFP fingerprint of 13281 chemicals. (Note: Counted_ECFP can be obtained from SMILES (hERG_13281.csv) by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
 
 3. XGBoost Folder   
    XBoost.ipynb: develop XGBoost models based on fingerprints (such as MACCS).
@@ -15,6 +15,10 @@
    Train_GNN_model.ipynb: develop GNN models;   
    data: contains train and validation set for developing GNN models.   
    (Note: The code origninated from previous reference: 10.1021/acs.jcim.3c00554)
+        
+        
+        
+        
 
 
 
