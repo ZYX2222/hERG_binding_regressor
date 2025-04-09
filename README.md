@@ -11,7 +11,7 @@
 3. GNN Folder   
    engine.py, model.py, utils.py: contain GNN models and helper functions;   
    config.py: hyperparameters and constant variables;   
-   Train_GNN_model: develop GNN models.
+   Train_GNN_model.ipynb: develop GNN models.
 
 
 
