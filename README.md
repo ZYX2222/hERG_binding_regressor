@@ -20,4 +20,14 @@
 
 ### Environment
 
+The most important python packages are:   
+
+python == 3.9.15   
+pytorch == 1.12.1   
+xgboost == 2.1.4   
+rdkit == 2022.09.5   
+scikit-learn == 1.2.0   
+hyperopt == 3.1.0   
+optuna == 1.23.5      
+
 To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.
