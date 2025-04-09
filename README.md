@@ -9,7 +9,7 @@
 3. XGBoost Folder   
    XBoost.ipynb: develop XGBoost models based on fingerprints (such as MACCS).
 
-4. GNN Folder (The code origninated from previous reference: 10.1021/acs.jcim.3c00554)      
+4. GNN Folder (The code origninated from previous reference: 10.1021/acs.jcim.3c00554)         
    engine.py, model.py, utils.py: contain GNN models and helper functions;   
    config.py: hyperparameters and constant variables;   
    Train_GNN_model.ipynb: develop GNN models;   
