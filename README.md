@@ -13,7 +13,7 @@ numpy == 1.23.5
 
 To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.
 
-### Folder
+### Main
 
 1. Data Folder   
    hERG_13281.csv: hERG dataset with SMILES and pIC50 values;    
@@ -28,6 +28,10 @@ To replicate or devleop models more conveniently, the environment file <environm
    Train_GNN_model.ipynb: develop GNN models;   
    data: contains train and validation set for developing GNN models.   
    (Note: The code origninated from previous reference: 10.1021/acs.jcim.3c00554)
+        
+        
+        
+        
         
         
         
