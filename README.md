@@ -11,7 +11,9 @@ scikit-learn == 1.2.0
 optuna == 3.1.0   
 numpy == 1.23.5      
 
-To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.
+To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.   
+This file can be used to create an environment using:
+$ conda create --name <env> --file <environment.txt>
 
 ## Main
 
@@ -35,6 +37,12 @@ To replicate or devleop models more conveniently, the environment file <environm
    data: contains train and validation set for developing GNN models.
    
    (Note: The code origninated from previous reference: 10.1021/acs.jcim.3c00554)
+        
+        
+        
+        
+        
+        
         
         
         
