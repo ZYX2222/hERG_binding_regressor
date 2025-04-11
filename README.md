@@ -1,5 +1,5 @@
-## hERG_binding_regressor   
-### Environment
+# hERG_binding_regressor   
+## Environment
 
 The most important python packages are:   
 
@@ -13,19 +13,19 @@ numpy == 1.23.5
 
 To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.
 
-### Main
+## Main
 
-1. Data Folder   
+### Data   
    hERG_13281.csv: hERG dataset with SMILES and pIC50 values;
    
    CECFP.zip: Unzip to get counted_ECFP fingerprint of 13281 chemicals.
 
    (Note: Counted_ECFP can be obtained from SMILES by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
 
-3. XGBoost Folder   
+### XGBoost  
    XBoost.ipynb: develop XGBoost models based on fingerprints (such as CECFP).
 
-4. GNN Folder      
+### GNN     
    engine.py, model.py, utils.py: contain GNN models and helper functions;
    
    config.py: hyperparameters and constant variables;
