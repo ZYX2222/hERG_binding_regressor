@@ -26,7 +26,7 @@ To replicate or devleop models more conveniently, the environment file <environm
 ### XGBoost  
    XGBoost.ipynb: develop XGBoost models based on fingerprints (such as CECFP);  
    
-   XGB-CECFP.pkl: The optimal model.   
+   XGB-CECFP.pkl: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with CECFP).      
 
 ### GNN     
    engine.py, model.py, utils.py: contain GNN models and helper functions;
