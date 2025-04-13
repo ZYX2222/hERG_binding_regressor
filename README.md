@@ -9,7 +9,8 @@ xgboost == 2.1.4
 rdkit == 2022.09.5   
 scikit-learn == 1.2.0   
 optuna == 3.1.0   
-numpy == 1.23.5      
+numpy == 1.23.5   
+pyvis == 0.3.2   
 
 To replicate or devleop models more conveniently, the environment file <environment.txt> is provided to install environment directly.   
 
