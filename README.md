@@ -37,7 +37,15 @@ To replicate or devleop models more conveniently, the environment file <environm
    
    data: contains train and validation set for developing GNN models.
    
-   (Note: The code origninated from previous reference: 10.1021/acs.jcim.3c00554)
+   (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+           
+### ADSAL   
+   metAppDomain_ADM.py and pyAppDomain.py: detailed files for structure activity landscape-based application domains (ADSAL);   
+   ADSAL.ipynb: characterize the ADSAL of a model.   
+   (Note: The code origninated from previous reference: DOI: 0.1021/acs.chemrestox.3c00074)
+        
+        
         
         
         
