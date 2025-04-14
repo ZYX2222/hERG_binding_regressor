@@ -14,7 +14,7 @@ pyvis == 0.3.2
 
 To replicate or devleop models more conveniently, the environment file <environmental.yml> is provided to install environment directly.    
 
-（command： conda env create -f environment. yaml）
+（command： conda env create -f environment.yaml）
 
 
 ## Main
