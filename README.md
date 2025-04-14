@@ -25,7 +25,7 @@ To replicate or devleop models more conveniently, the environment file <environm
    (Note: Counted_ECFP can be obtained from SMILES by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
 
 ### XGBoost  
-   XGBoost.ipynb: develop XGBoost models based on fingerprints (such as CECFP);  
+   XGBoost.ipynb: develop XGBoost models based on fingerprints (such as CECFP, which can be obtained by unzipping CECFP.zip in the data file);  
    
    XGB-CECFP.pkl: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with CECFP).      
 
@@ -39,6 +39,8 @@ To replicate or devleop models more conveniently, the environment file <environm
    data: contains train and validation set for developing GNN models.
    
    (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+        
         
         
         
