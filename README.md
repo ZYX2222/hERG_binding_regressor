@@ -12,7 +12,13 @@ optuna == 3.1.0
 numpy == 1.23.5   
 pyvis == 0.3.2   
 
-To replicate or devleop models more conveniently, the environment file <environmental.yml> is provided to install environment directly. (command： conda env create -f environment.yaml)   
+To replicate or devleop models more conveniently, the environment file <environmental.yml> is provided to install environment directly.    
+
+Command:   
+
+```
+conda env create -f environment.yaml
+```   
 
 
 ## Main
@@ -39,6 +45,10 @@ To replicate or devleop models more conveniently, the environment file <environm
    data: contains train and validation set for developing GNN models.
    
    (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+        
+        
+        
         
         
         
