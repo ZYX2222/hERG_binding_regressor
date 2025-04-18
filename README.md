@@ -14,7 +14,6 @@ pyvis == 0.3.2
 
 To replicate or devleop models more conveniently, the environment file <environmental.yml> is provided to install environment directly.    
 
-Command:   
 
 ```
 conda env create -f environment.yaml
@@ -45,6 +44,10 @@ conda env create -f environment.yaml
    data: contains train and validation set for developing GNN models.
    
    (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+        
+        
+        
         
         
         
