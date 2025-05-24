@@ -43,7 +43,7 @@ conda env create -f environment.yaml
    
    data: contains train and validation set for developing GNN models.
    
-   (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+   (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
         
         
         
@@ -71,7 +71,7 @@ conda env create -f environment.yaml
    
    ADSAL.ipynb: characterize the ADSAL of a model.   
    
-   (Note: The code origninated from previous reference: DOI: 0.1021/acs.chemrestox.3c00074)
+   (Acknowledgments: The code origninated from previous reference: DOI: 0.1021/acs.chemrestox.3c00074)
         
         
         
