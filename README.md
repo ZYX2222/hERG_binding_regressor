@@ -77,7 +77,7 @@ conda env create -f environment.yaml
    
    ```ADSAL.ipynb```: characterize the ADSAL of a model; Users can set different application domain stringency levels according to the instructions in the codes and their own needs, in order to achieve the function of improving the prediction of the model.   
 
-   Training_set.csv and VS.csv: Training and validation sets used in the current study for developing the best XGBoost-CECFP model; here, the validation set data gives the prediction results for the convenience of the application domain characterization.
+   Training_set.csv and VS.csv: Training and validation sets used in the current study for developing the optimal XGBoost-CECFP model; here, the validation set data gives the prediction results for the convenience of the application domain characterization.
    
    (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.chemrestox.3c00074)
         
