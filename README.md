@@ -30,20 +30,22 @@ conda env create -f environment.yaml
    (Note: Counted_ECFP can be obtained from SMILES by the RDKit using the “AllChem.GetHashedMorganFingerprint” commands.)
 
 ### XGBoost  
-   XGBoost.ipynb: develop XGBoost models based on fingerprints (such as CECFP, which can be obtained by unzipping CECFP.zip in the data file);  
+   ```XGBoost.ipynb```: develop XGBoost models based on fingerprints (such as CECFP, which can be obtained by unzipping CECFP.zip in the data file);  
    
-   XGB-CECFP.pkl: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with calculated CECFP).      
+   ```XGB-CECFP.pkl```: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with calculated CECFP).      
 
 ### GNN     
-   engine.py, model.py, utils.py: contain GNN models and helper functions;
+   ```engine.py, model.py, utils.py```  : contain GNN models and helper functions;
    
-   config.py: hyperparameters and constant variables;
+   ```config.py``` : hyperparameters and constant variables;
    
-   Train_GNN_model.ipynb: develop GNN models;
+   ``` Train_GNN_model.ipynb ``` : develop GNN models;
    
    data: contains train and validation set for developing GNN models.
    
    (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+        
         
         
         
