@@ -67,13 +67,17 @@ conda env create -f environment.yaml
         
         
         
+        
+        
            
 ### ADSAL   
-   ```metAppDomain_ADM.py and pyAppDomain.py```: Required files for structure activity landscape-based application domains (ADSAL);   
+   ```pyAppDomain.py```: Required files for structure activity landscape-based application domains (ADSAL);   
    
-   ```ADSAL.ipynb```: characterize the ADSAL of a model.   
+   ```ADSAL.ipynb```: characterize the ADSAL of a model; Users can set different application domain stringency levels according to the instructions in the codes and their own needs, in order to achieve the function of improving the prediction of the model.   
    
    (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.chemrestox.3c00074)
+        
+        
         
         
         
