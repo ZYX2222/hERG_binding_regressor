@@ -32,7 +32,7 @@ conda env create -f environment.yaml
 ### XGBoost  
    ```XGBoost.ipynb```: develop XGBoost models based on fingerprints (such as CECFP, which can be obtained by unzipping CECFP.zip in the data file);  
    
-   ```XGB-CECFP.pkl```: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with calculated CECFP).      
+   ```XGBoost-CECFP.pkl```: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with calculated CECFP).      
 
 ### GNN     
    ```engine.py, model.py, utils.py```  : contain GNN models and helper functions;
@@ -44,6 +44,8 @@ conda env create -f environment.yaml
    data: contains train and validation set for developing GNN models.
    
    (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+        
         
         
         
