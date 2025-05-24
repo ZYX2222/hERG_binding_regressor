@@ -73,7 +73,7 @@ conda env create -f environment.yaml
    
    ```ADSAL.ipynb```: characterize the ADSAL of a model.   
    
-   (Acknowledgments: The code origninated from previous reference: DOI: 0.1021/acs.chemrestox.3c00074)
+   (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.chemrestox.3c00074)
         
         
         
