@@ -23,11 +23,9 @@ conda env create -f environment.yaml
 ## Main
 
 ### Data   
-   hERG_R_13818.csv: hERG dataset with 13818 SMILES and pIC50 (active) values, with merging the pIC50 values of duplicate molecules from different sources;     
-
-   hERG_R_13890.csv: hERG dataset with 13890 SMILES and pIC50 (active) values, with retaining the pIC50 values of duplicate molecules from different sources;
+   hERG_R_13818.csv: hERG dataset with 13818 SMILES and pIC50 values;    
    
-   CECFP.zip: Unzip to get counted_ECFP fingerprints of 13818 and 13890 chemicals, respectively.
+   CECFP.zip: Unzip to get counted_ECFP fingerprints of 13818 chemicals.
 
    (Note: Counted_ECFP can be obtained from SMILES by the RDKit using the ```AllChem.GetHashedMorganFingerprint``` commands.)
 
@@ -46,6 +44,8 @@ conda env create -f environment.yaml
    data: contains train and validation set for developing GNN models.
    
    (Note: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
+        
+        
         
         
         
