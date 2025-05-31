@@ -34,7 +34,7 @@ conda env create -f environment.yaml
    (Note: Counted_ECFP can be obtained from SMILES by the RDKit using the ```AllChem.GetHashedMorganFingerprint``` commands.)
 
 ### XGBoost  
-   ```XGBoost.ipynb```: develop XGBoost models based on fingerprints (such as CECFP, which can be obtained by unzipping CECFP.zip in the data file);  
+   ```XGBoost.ipynb```: develop XGBoost models based on fingerprints (such as CECFP, which can be obtained conveniently by unzipping CECFP.zip in the data file);  
    
    ```XGBoost-CECFP.pkl```: The optimal model, which can be used to predict the hERG pIC50 values for given SMILES (with calculated CECFP).    
 
