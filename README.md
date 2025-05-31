@@ -23,11 +23,11 @@ conda env create -f environment.yaml
 ## Main
 
 ### Data   
-   hERG_R_13818.csv: hERG dataset with 13818 SMILES and pIC50 values;  
+   hERG_R_13818.csv: hERG dataset with 13818 SMILES and pIC50 values, which is used to develop XGBoost-CECFP model;  
    
-   hERG_R_13890.csv: hERG dataset with 13890 SMILES, pIC50 values, and two source informantion;   
+   hERG_R_13890.csv: hERG dataset with 13890 SMILES, pIC50 values, and two source informantion, which is used to develop XGBoost-CECFP-S model;   
 
-   hERG_R_6952.csv: hERG dataset with 6952 SMILES and pIC50 values from ChEMBL;
+   hERG_R_6952.csv: hERG dataset with 6952 SMILES and pIC50 values from ChEMBL, which is used to develop XGBoost-CECFP-C model;
    
    CECFP.zip: Unzip to get counted_ECFP fingerprints of chemicals in above 3 csv files.
 
