@@ -23,13 +23,13 @@ conda env create -f environment.yaml
 ## Main
 
 ### Data   
-   hERG_R_13818.csv: hERG dataset with 13818 SMILES and pIC50 values, which is used to develop XGBoost-CECFP model;  
+   ```hERG_R_13818.csv```: hERG dataset with 13818 SMILES and pIC50 values, which is used to develop XGBoost-CECFP model;  
    
-   hERG_R_13890.csv: hERG dataset with 13890 SMILES, pIC50 values, and two source informantion, which is used to develop XGBoost-CECFP-S model;   
+   ```hERG_R_13890.csv```: hERG dataset with 13890 SMILES, pIC50 values, and two source informantion, which is used to develop XGBoost-CECFP-S model;   
 
-   hERG_R_6952.csv: hERG dataset with 6952 SMILES and pIC50 values from ChEMBL, which is used to develop XGBoost-CECFP-C model;
+   ```hERG_R_6952.csv```: hERG dataset with 6952 SMILES and pIC50 values from ChEMBL, which is used to develop XGBoost-CECFP-C model;
    
-   CECFP.zip: Unzip to get counted_ECFP fingerprints of chemicals in above 3 csv files.
+   ```CECFP.zip```: Unzip to get counted_ECFP fingerprints of chemicals in above 3 csv files.
 
    (Note: Counted_ECFP can be obtained from SMILES by the RDKit using the ```AllChem.GetHashedMorganFingerprint``` commands.)
 
@@ -49,7 +49,7 @@ conda env create -f environment.yaml
    
    ``` Train_GNN_model.ipynb ``` : develop GNN models;
    
-   data: contains train and validation set for developing GNN models.
+   ```data```: contains train and validation set for developing GNN models.
    
    (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.jcim.3c00554)
         
@@ -89,7 +89,9 @@ conda env create -f environment.yaml
    
    ```ADSAL.ipynb```: characterize the ADSAL of a model; Users can set different application domain stringency levels according to the instructions in the codes and their own needs, in order to achieve the function of improving the prediction of the model.   
 
-   Training_set.csv and VS.csv: Training and validation sets used in the current study for developing the optimal XGBoost-CECFP model; here, the validation set data gives the prediction results for the convenience of the application domain characterization.
+   ```TrainingSet.csv``` and ```ValidationSet.csv```: Training and validation sets used in the current study for developing the optimal XGBoost-CECFP model; here, the validation set data gives the prediction results for the convenience of the application domain characterization.   
+
+   ```IndustrialSet.csv```: contains more than 100,000 industrial chemicals for model application; the file can also be used to replace the ValidationSet.csv file to conduct the AD characterization step; for convenience, this file already contains the results after applying the ADSAL characterization.   
    
    (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.chemrestox.3c00074)
         
