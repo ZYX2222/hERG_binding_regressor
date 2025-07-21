@@ -91,7 +91,7 @@ conda env create -f environment.yaml
 
    ```TrainingSet.csv``` and ```ValidationSet.csv```: Training and validation sets used in the current study for developing the optimal XGBoost-CECFP model; here, the validation set data gives the prediction results for the convenience of the application domain characterization.   
 
-   ```IndustrialSet.csv```: contains more than 100,000 industrial chemicals for model application; the file can also be used to replace the ValidationSet.csv file to conduct the AD characterization step; for convenience, this file already contains the results after applying the ADSAL characterization.   
+   ```IndustrialSet.xlsx```: contains more than 100,000 industrial chemicals for model application; the data in this file (with the same format as the ValidationSet.csv) can also be used to replace the ValidationSet.csv file to conduct the AD characterization step; for convenience, this file already contains the results after applying the ADSAL characterization.   
    
    (Acknowledgments: The code origninated from previous reference: DOI: 10.1021/acs.chemrestox.3c00074)
         
