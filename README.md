@@ -1,4 +1,11 @@
 # hERG_binding_regressor   
+
+The files related to the paper published in Chemical Research in Toxicology:   
+
+"Enlarged Data Sets and Innovative Applicability Domain Characterization Empower ML Models to Reliably Bridge hERG Binding Data Gaps in Diverse Chemicals"
+
+Full-text link: https://pubs.acs.org/doi/10.1021/acs.chemrestox.5c00065   
+
 ## Environment
 
 The most important python packages are:   
