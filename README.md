@@ -23,7 +23,7 @@ To replicate or devleop models more conveniently, the environment file <environm
 
 
 ```
-conda env create -f environment.yaml
+conda env create -f environment.yml
 ```   
 
 
